@@ -1,3 +1,4 @@
+// generate dummy data
 const faker = require('faker');
 
 const db = require('../config/connection');

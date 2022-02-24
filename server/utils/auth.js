@@ -29,6 +29,7 @@ module.exports = {
 
     return req;
   },
+  // expect a user object and will add user's username, email and id
   signToken: function({ username, email, _id }) {
     const payload = { username, email, _id };
 
